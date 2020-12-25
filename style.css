@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    color: #ffffff;
+    background-color: #ffffff;
+    min-width: 1400px;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    list-style: none;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 710px;
+    margin: 0 auto;
+}
+
+.wrapper-1 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    width: 100%;
+    height: 100vh;
+    background: url("/img/Intro.png") center no-repeat;
+    background-size: cover;
+}
+
+.intro-title {
+    width: 100%;
+    min-width: 600px;
+    font-family: Montserrat;
+    font-size: 40px;
+}
+
+.intro-info {
+    margin-top: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.intro .conteiner .learn-more-yellow {
+    width: 135px;
+
+    height: 40px;
+    background-color: #ffe26d;
+    color: black;
+    cursor: pointer;
+
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 11px;
+    
+    border-radius: 5px;
+    border-color: none;
+    border: none;
+
+    margin-top: 35px;
+    margin-right: 5px;
+    
+}
+
+
+
+.intro .conteiner .learn-more-yellow:hover {
+    background-color: #62497c;
+    color: #ffffff
+}
+.intro .conteiner .learn-more-purple:hover {
+    background-color: #ffe26d;
+    color: black;
+}
+
+button {
+    outline: none;
+}
+
+.button-yellow {
+    width: 135px;
+    height: 40px;
+    background-color: #ffe26d;
+    color: black;
+    cursor: pointer;
+    
+
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 11px;
+    
+    
+    border-radius: 5px;
+    border-color: none;
+    border: none; 
+
+    margin: 35px auto;
+}
+ 
+.button-yellow:hover {
+    width: 135px;
+    height: 40px;
+    background-color: #62497c;
+    color: #ffffff;
+    cursor: pointer;
+
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 11px;
+    
+    border-radius: 5px;
+    border-color: none;
+    border: none;
+
+    margin: 35px auto;
+}
+
+.header {
+    width: 100%;
+    min-width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+
+.logo {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -3px;
+    text-align: center;
+}
+
+.link-item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+
+    font-family: Montserrat;
+    font-size: 10px;
+}
+
+.link-item:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ffe26d;
+    display: none;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.link-item:hover {
+    color: #ffe26d;
+}
+
+.link-item:hover::after {
+    color: #ffe26d;
+    display: block;
+}
+
+
+.conteiner {
+    width: 100%;
+    min-width: 705px;
+    margin: 0 auto;
+}
+
+/* Welcom to Zippy */
+.conent {
+    margin-top: 90px;
+}
+
+.welcomer {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-item {
+    margin-top: 85px;
+    margin-bottom: 85px;
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    color: #000000;
+
+    text-align: center;
+}
+
+.logo-item-vidio {
+    background-color: #62497c;
+
+    margin-top: 85px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+
+    text-align: center;
+}
+
+.logo-item-life {
+    background-color: #efefef;
+
+    margin-top: 210px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    color: #000000;
+
+    text-align: center;
+
+    height: 810px; /* Потом нужно удалить*/
+}
+
+.logo-item-sign {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+
+    text-align: center;
+}
+
+.flex-cont {
+    display: flex;
+}
+
+.welcom-info {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 445px;
+    color: black;
+
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.umbrella {
+    display: flex;
+    margin-left: 75px;
+}
+
+.item-list {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.name-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    font-family: Montserrat;
+    font-weight: bold;
+    text-align: center;
+    color: #62497c;
+}
+
+.new-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+    max-width: 180px;
+    margin: auto;
+}
+
+.text-item {
+    display: flex;
+    width: 100%;        
+    max-width: 160px;
+
+
+    font-family: Lato;
+    font-weight: 100;
+    font-size: 13px;
+    text-align: center;
+    color: #040405;
+    line-height: 20px;
+}
+
+.line::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #e7e7e7;
+}
+
+.flex-conteiner {
+    width: 100%;
+    margin-bottom: -4px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-project {
+    display: flex;
+    justify-content: center;
+}
+
+.project-new-block {
+    width: 100%;
+    min-width: 350px;
+    max-width: 351px;
+    height: 245px;
+    background-color: #efefef;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #000000;
+}
+
+.project-new-block:hover {
+    background-color: #ffe26d;
+}
+
+.project-new-block-name {
+    width: 100%;
+    max-width: 280px;
+    padding-left: 45px;
+    padding-bottom: 20px;
+
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: bold;
+
+    color: #040405;
+}
+
+.project-new-block-text {
+    display: flex;
+    
+    width: 100%;
+    max-width: 280px;
+    padding-left: 45px;
+    padding-bottom: 20px;
+
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.button-project {
+    width: 165px;
+    height: 40px;
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    
+
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 11px;
+    
+    
+    border-radius: 5px;
+    border-color: none;
+    border: none; 
+
+    margin-left: 45px;
+}
+
+.button-project:hover {
+    background-color: #62497c;
+    color: #ffffff;
+}
+
+.flex-pricing {
+    color: #040405;
+}
+
+.pricing {
+    display: flex;
+}
+
+.pricing-blok {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 240px;
+}
+
+.pricing-blok:nth-child(2) {
+    border-right: 2px #e7e7e7 solid;
+    border-left: 2px #e7e7e7 solid;
+}
+
+
+.pricing-text {
+    display: flex;
+    justify-content: center;
+
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.pricing-name {
+    display: flex;
+    justify-content: center;
+
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.button-buy {
+
+    width: 80px;
+    height: 30px;
+    background-color: #ffe26d;
+    color: black;
+    cursor: pointer;
+    margin: 0 auto;
+
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 11px;
+    
+    border-radius: 5px;
+    border: none;
+}
+
+.button-buy:hover {
+    background-color: #62497c;
+    color: #ffffff;
+}
+
+.video-projects {
+    background-color: #62497c;
+    display: block;
+}
+
+.flex-video-projects {
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lex-vidio-projekt-coloumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.play-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.play-icon-left {
+    position: relative;
+    bottom: 300px;
+    display: flex;
+}
+
+.play-icon-center {
+    position: relative;
+    bottom: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.play-icon-right {
+    position: relative;
+    bottom: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.conteiner-zippy {
+
+    width: 100%;
+    max-width: 705px;
+    height: 600px;
+    
+
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item-zippy {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 60px; 
+
+}
+
+.team-name {
+    margin-top: 20px;  
+
+    display: flex;
+    justify-content: center;
+
+    font-weight: bold;
+    font-family: Montserrat;
+    font-size: 15px;
+
+    color: #000000;
+}
+
+.flex-text-zippy {
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: center;
+    
+    font-weight: 100;
+    font-family: Montserrat;
+    font-size: 15px;
+
+    color: #000000;
+}
+
+.intro-sign {
+    display: flex;
+    
+
+    width: 100%;
+    min-width: 660px;
+    height: 330px;
+    background: url("/img/Sign.png") center no-repeat;
+    background-size: cover;
+
+}
+
+input, textarea {
+    outline: none;
+}
+input:active, textarea:active {
+    outline: none;
+}
+
+
+.sign-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-input {
+    display: flex;
+    justify-content: center;
+    width: 415px;
+    background-color: #fefefe;
+
+    font-family: Montserrat;
+    font-size: 19px;
+
+    border: none;   
+
+    padding: 15px;
+
+}
+
+.sign-button {
+    display: flex;
+    justify-content: center;
+    width: 135px;
+    height: 55px;
+
+    border: none;
+
+    background-color: #ffe26d;
+
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: bold;   
+}
+
+.sign-button:hover { 
+    background-color: #62497c;
+    color: #ffffff;
+}

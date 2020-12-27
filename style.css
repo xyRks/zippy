@@ -5,6 +5,7 @@ body {
     margin: 0;
     color: #ffffff;
     background-color: #ffffff;
+    min-width: 1400px;
 }
 
 h1, h2, h3, h4 {

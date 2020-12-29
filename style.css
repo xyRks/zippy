@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 body {
     margin: 0;
     color: #ffffff;
     background-color: #ffffff;
     min-width: 1400px;
+    
 }
 
 h1, h2, h3, h4 {
@@ -554,7 +555,7 @@ button {
 
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     justify-content: space-between;
     margin-bottom: 60px; 
 
@@ -646,4 +647,70 @@ input:active, textarea:active {
 .sign-button:hover { 
     background-color: #62497c;
     color: #ffffff;
+}
+
+.flex-blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #000000;
+}
+
+.flex-blog-content {
+    width: 215px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo-blog {  
+    font-family: Montserrat;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.date {
+    margin-bottom: 25px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.blog-text {
+    font-size: 13px;
+    font-family: Lato;
+    line-height: 18px;
+    font-weight: 600;
+    margin-bottom:  35px;
+}
+
+.button-blog {
+    width: 125px;
+    height: 40px;
+    background-color: #ececec;
+    margin: 0 auto;
+
+
+    color: black;
+    text-align: center;
+    
+    cursor: pointer;
+    
+
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 11px;
+    
+    
+    border-radius: 5px;
+    border: none; 
+}
+
+.button-blog:hover {
+    background-color: #ffe26d;
 }

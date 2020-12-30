@@ -649,6 +649,10 @@ input:active, textarea:active {
     color: #ffffff;
 }
 
+.blog {
+    margin-bottom: 50px;
+}
+
 .flex-blog {
     display: flex;
     justify-content: space-between;
@@ -713,4 +717,90 @@ input:active, textarea:active {
 
 .button-blog:hover {
     background-color: #ffe26d;
+}
+.contact {
+    display: flex;
+    background-color: #ffe26d;
+}
+
+.logo-contact {
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.contect-info-form {
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.flex-item-contact {
+    display: flex;
+    flex-direction: column;
+    padding-left: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+
+    color: #000000;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+input {
+    margin: 0;
+    padding: 5px;
+    border: none;
+    background-color: #fefefe;
+    font-family: Montserrat;
+    font-size: 15px;
+}
+
+textarea {
+    margin: 0;
+    padding: 5px;
+    border: none;
+}
+
+.standart-input {
+    width: 310px;
+    height: 45px;
+    margin-bottom: 25px;
+}
+
+.message-input {
+    width: 310px;
+    height: 140px;
+    max-width: 315px;
+    max-height: 145px;
+    min-width: 310px;
+    min-height: 140px;
+    margin-bottom: 15px;
+
+    background-color: #fefefe;
+    font-family: Montserrat;
+    font-size: 15px;
+}
+
+.send-form {
+    padding: 0;
+
+    width: 320px;
+    height: 45px;
+    background-color: #62497c;
+    cursor: pointer;
+
+    border: none;
+
+    color: #ffffff;
+    font-size: 10px;
+    font-family: Montserrat;
+    font-weight: bold;
 }

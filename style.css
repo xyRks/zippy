@@ -135,7 +135,7 @@ button {
 
 .header {
     width: 100%;
-    min-width: 100%;
+    min-width: 1400px;
 
     position: absolute;
     top: 0;

@@ -49,7 +49,8 @@ ul {
     width: 100%;
     min-width: 600px;
     font-family: Montserrat;
-    font-size: 40px;
+    font-size: 41px;
+    font-weight: bold;
 }
 
 .intro-info {
@@ -634,7 +635,8 @@ input:active, textarea:active {
     justify-content: center;
     width: 135px;
     height: 55px;
-
+    cursor: pointer;
+    
     border: none;
 
     background-color: #ffe26d;

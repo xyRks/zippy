@@ -877,4 +877,10 @@ footer {
 
 .text-footer {
     line-height: 25px;
+    text-decoration: none;
+}
+
+.text-footer a {
+    color: #000000;
+    text-decoration: none;
 }
